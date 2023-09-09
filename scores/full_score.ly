@@ -6,7 +6,7 @@
 \book {
   \bookpart {
     \section "1" "Kyrie"
-    % \addTocEntry
+    \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
       <<
@@ -80,8 +80,8 @@
         >>
         \new FiguredBass { \KyrieBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 4 = 90 }
+      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
+      \midi { \tempo 4 = 45 } % 90
     }
   }
 }
