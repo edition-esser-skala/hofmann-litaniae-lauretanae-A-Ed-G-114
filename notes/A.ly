@@ -207,3 +207,81 @@ VirgoAltoLyrics = \lyricmode {
   o -- ra pro no -- bis, pro no --
   bis. %30 finis
 }
+
+SalusAlto = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 3/4 \autoBeamOff \tempoSalus
+    \mvTr e2\pE^\tutti e4
+    e2 e4
+    cis2.
+    d
+    d4 e e %5
+    e8.([ d16)] c!4 r
+    R2.
+    e2.
+    e4. e8 e4
+    e2 e4 %10
+    f2 f4
+    a a a
+    a8.([ g16)] g4 r
+    R2.
+    g2 g4 %15
+    gis2 gis4
+    gis2 gis4
+    e2 e4
+    fis fis fis
+    fis8.([ e16)] e4 r %20
+    R2.
+    g!2.
+    g4. g8 g4
+    g g g
+    g g r %25
+    e e e
+    e e r
+    f f f
+    e e2
+    d4 d2 %30
+    dis dis4
+    dis e2
+    e r4
+    R2.*4 %37
+    R2.\fermata \bar "|." %38 finis
+  }
+}
+
+SalusAltoLyrics = \lyricmode {
+  Sa -- lus
+  in -- fir --
+  mo --
+  rum,
+  o -- ra pro %5
+  no -- bis.
+
+  Re --
+  fu -- gi -- um
+  pec -- ca -- %10
+  to -- rum,
+  o -- ra pro
+  no -- bis.
+
+  Con -- so -- %15
+  la -- trix
+  af -- fli --
+  cto -- rum,
+  o -- ra pro
+  no -- bis. %20
+
+  Au --
+  xi -- li -- um
+  Chri -- sti -- a --
+  no -- rum, %25
+  o -- ra pro
+  no -- bis,
+  o -- ra pro
+  no -- bis,
+  o -- ra, %30
+  o -- ra
+  pro no --
+  bis. %33 finis
+}

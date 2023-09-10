@@ -9,6 +9,7 @@
 tempoKyrie = \tempoMarkup "Adagio"
   tempoKyrieB = \tempoMarkup "Andante"
 tempoVirgo = \tempoMarkup "Andante"
+tempoSalus = \tempoMarkup "Un poco adagio"
 
 
 \include "notes/ob1.ly"

@@ -216,14 +216,83 @@ VirgoSopranoLyrics = \lyricmode {
   bis. %30 finis
 }
 
+SalusSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 3/4 \autoBeamOff \tempoSalus
+    \mvTr a'2\pE^\tutti a4
+    gis2 gis4
+    g2.
+    f
+    f4 e h' %5
+    c8.([ h16)] a4 r
+    R2.
+    c
+    cis4. cis8 cis4
+    cis2 cis4 %10
+    d2 d4
+    es d c!
+    c8.([ b16)] b4 r
+    R2.
+    b2 b4 %15
+    h2 h4
+    h2 h4
+    c2 c4
+    c h a
+    a8.([ g!16)] g4 r %20
+    R2.
+    h
+    e4. e8 e4
+    e f! e
+    e d r %25
+    d d c
+    c h e~
+    e d d
+    d c2
+    c4 h2 %30
+    a a4
+    a a( gis)
+    a2 r4
+    R2.*4 %37
+    R2.\fermata \bar "|." %38 finis
+  }
+}
 
+SalusSopranoLyrics = \lyricmode {
+  Sa -- lus
+  in -- fir --
+  mo --
+  rum,
+  o -- ra pro %5
+  no -- bis.
 
+  Re --
+  fu -- gi -- um
+  pec -- ca -- %10
+  to -- rum,
+  o -- ra pro
+  no -- bis.
 
-%   Sa -- lus in -- fir -- mo -- rum,
-%   re -- fu -- gi -- um pec -- ca -- to -- rum,
-%   con -- so -- la -- trix af -- fli -- cto -- rum,
-%   au -- xi -- li -- um Chri -- sti -- a -- no -- rum,
-%   o -- ra pro no -- bis.
+  Con -- so -- %15
+  la -- trix
+  af -- fli --
+  cto -- rum,
+  o -- ra pro
+  no -- bis. %20
+
+  Au --
+  xi -- li -- um
+  Chri -- sti -- a --
+  no -- rum, %25
+  o -- ra pro
+  no -- bis, o --
+  ra pro
+  no -- bis,
+  o -- ra, %30
+  o -- ra
+  pro no --
+  bis. %33 finis
+}
 
 %   Re -- gi -- na An -- ge -- lo -- rum,
 %   re -- gi -- na Pa -- tri -- ar -- cha -- rum,

@@ -109,3 +109,47 @@ VirgoOboeII = {
     c g e r\fermata \bar "|." %32 finis
   }
 }
+
+SalusOboeII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 3/4 \tempoSalus
+    e'2.\pE
+    e
+    cis
+    d
+    d4 e2 %5
+    e8. d16 c!4 r
+    R2.
+    e,
+    e
+    e-\critnote %10
+    f
+    a
+    a8. g16 g4 r
+    R2.
+    g %15 %15
+    gis
+    gis
+    e
+    fis
+    fis8. e16 e4 r %20
+    R2.
+    g
+    g
+    g
+    g4 g r %25
+    e2.
+    e4 e r
+    f2.
+    e
+    d %30
+    dis
+    dis4 e2
+    e r4
+    R2.*2 %35
+    d'16( c) c( h) h( a) a( gis) gis( h a gis)
+    a-\parenthesize-! e'( d c) c4 h\trill
+    a r r\fermata \bar "|." %38 finis
+  }
+}

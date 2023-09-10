@@ -113,3 +113,48 @@ VirgoViolinoI = {
     c32( h a g f e d c) g8 h' c,4 r\fermata \bar "|." %32 finis
   }
 }
+
+SalusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 3/4 \tempoSalus
+    a''8\fp a a a a a
+    gis\fp gis gis gis gis gis
+    g\fp g g g g g
+    f\fp f f f f f
+    f\fp f e e d d %5
+    c\fp c c16( d) d( e) e( f) f8
+    r h, h16( c) c( d) d( e) e8
+    c\fp c c c c c
+    cis\fp cis cis cis cis cis
+    cis\fp cis cis cis cis cis %10
+    d\fp d d d d d
+    es\fp es d d c! c
+    c\fp b b16( c) c( d) d( es) es8
+    r a, a16( b) b( c) c( d) d8
+    b\fp b b b b b %15
+    h\fp h h h h h
+    h\fp h h h h h
+    c\fp c c c c c
+    c\fp c h h a a
+    a\fp g'! g16( a) a( h) h( c) c8 %20
+    r fis, fis16( g) g( a) a( h) h8
+    g\fp h, h h h h
+    e\fp e e e e e
+    e\fp e f f e e
+    e\fp e d d d d %25
+    d\fp d d d c c
+    c\fp c h h e e
+    f\fp f f f f f
+    e\fp e e e e e
+    d\fp d d d d d %30
+    dis\fp dis dis dis dis dis
+    a'\fp a a a gis gis
+    a\fp c, c16( d) d( e) e( f) f8
+    r h, h16( c) c( d) d( e) e8
+    r a a16( h) h( c) c( d) d( c) %35
+    h( a) a( gis) gis( f!) f( e) e( d c h)
+    c-! c( h a) a4 gis\trill
+    a r r\fermata \bar "|." %38 finis
+  }
+}

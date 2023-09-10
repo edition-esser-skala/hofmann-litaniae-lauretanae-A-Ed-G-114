@@ -219,3 +219,89 @@ VirgoBassFigures = \figuremode {
   r q2.
   \bc <[6 _]>1 %32 finis
 }
+
+SalusOrgano = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 3/4 \tempoSalus
+    \mvTrh a8\fp-\senzaOrg-\tuttiE a a a a a
+    e'\fp e e e e e
+    a,\fp a a a a a
+    d\fp d d d d d
+    gis,\fp gis gis gis gis gis %5
+    a\fp a a a a-\soloE a
+    e'\fp e e e e e
+    \mvTrh a\fp-\tuttiE a a a a a
+    g!\fp g g g g g
+    g\fp g g g g g %10
+    f\fp f f f f f
+    fis\fp fis fis fis fis fis
+    g\fp g g g g-\soloE g
+    d\fp d d d d d
+    \mvTrh g\fp-\tuttiE g g g g g %15
+    f!\fp f f f f f
+    d\fp d c c h h
+    a\fp a a a a a
+    dis\fp dis dis dis dis dis
+    e\fp e e e e-\soloE e %20
+    h\fp h h h h h
+    \mvTrh e\fp-\tuttiE e e e e e
+    c\fp c c c c c
+    c\fp c h h c c
+    g'\fp g g g g g %25
+    gis\fp gis gis gis a a
+    e\fp e e e e e
+    e\fp e e e e e
+    e\fp e e e e e
+    e\fp e e e e e %30
+    f\fp f f f f f
+    f\fpE f e e e e
+    a,\fpE a a a a-\soloE a
+    e'\fpE e e e e e
+    a,\fpE a a a a a %35
+    e'\fpE e e e e e
+    a, a e' e e, e
+    a4 r r\fermata \bar "|." %38 finis
+  }
+}
+
+SalusBassFigures = \figuremode {
+  \bo <[5 3]>2.
+  <_+>
+  <7! _+>
+  r
+  <7>4 <6> <5> %5
+  <_!>2.
+  <_+>
+  r
+  <4\+ _->
+  <\t \t> %10
+  <6>
+  <7- 5!>4 <6> <5>
+  <9 4> <8 _->2
+  <_+>2.
+  <_-> %15
+  <4! 2\+>
+  <4\+ 3>4 <7 5\+> <6\\>
+  r2.
+  <7 _+>4 \bassFigureExtendersOn <6 _+> <5 _+> \bassFigureExtendersOff
+  <9\\ 4> <8 _!>2 %20
+  <5\+ _+>2.
+  r
+  r
+  r4 <6 5!>2
+  <6 4>4 <5 3>2 %25
+  <6 5>2.
+  <6 4>4 <5 _+>2
+  <9 8 4>4 <\t 7 5> <\t \t 4>
+  <7 _+>4 <6 4>2
+  <7 6 2\+>4 <\t 5 _+>2 %30
+  <6\\>2.
+  <\t>4 <6 4> <5 _+>
+  r2.
+  <_+>
+  r %35
+  <_+>
+  r4 <6 4> \bc <[5 _+]>
+  r2. %38 finis
+}

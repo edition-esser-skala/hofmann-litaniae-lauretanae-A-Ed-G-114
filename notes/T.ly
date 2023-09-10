@@ -207,3 +207,81 @@ VirgoTenoreLyrics = \lyricmode {
   o -- ra pro no -- bis, pro no --
   bis. %30 finis
 }
+
+SalusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \minor \time 3/4 \autoBeamOff \tempoSalus
+    \mvTr c2\pE^\tutti c4
+    h2 h4
+    a2.
+    a
+    h4 h h %5
+    e, e r
+    R2.
+    a
+    b4. b8 b4
+    b2 b4 %10
+    a2 a4
+    c! a d
+    d d r
+    R2.
+    d2 d4 %15
+    d2 d4
+    f!( e) d
+    c2 c4
+    a fis h
+    h h r %20
+    R2.
+    g!
+    g4. g8 g4
+    c d c
+    c h r %25
+    h h a
+    a gis gis
+    a( h) a
+    gis a2
+    fis4 gis2 %30
+    c2 c4
+    c c( h)
+    a2 r4
+    R2.*4 %37
+    R2.\fermata \bar "|." %38 finis
+  }
+}
+
+SalusTenoreLyrics = \lyricmode {
+  Sa -- lus
+  in -- fir --
+  mo --
+  rum,
+  o -- ra pro %5
+  no -- bis.
+
+  Re --
+  fu -- gi -- um
+  pec -- ca -- %10
+  to -- rum,
+  o -- ra pro
+  no -- bis.
+
+  Con -- so -- %15
+  la -- trix
+  af -- fli --
+  cto -- rum,
+  o -- ra pro
+  no -- bis. %20
+
+  Au --
+  xi -- li -- um
+  Chri -- sti -- a --
+  no -- rum, %25
+  o -- ra pro
+  no -- bis, o --
+  ra __ pro
+  no -- bis,
+  o -- ra, %30
+  o -- ra
+  pro no --
+  bis. %33 finis
+}
