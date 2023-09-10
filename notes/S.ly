@@ -144,26 +144,80 @@ KyrieSopranoLyrics = \lyricmode {
   bis. %66 finis
 }
 
-% Vir -- go pru -- den -- tis -- si -- ma,
-%   vir -- go ve -- ne -- ran -- da,
-%   vir -- go prae -- di -- can -- da,
-%   vir -- go po -- tens,
-%   vir -- go cle -- mens,
-%   vir -- go fi -- de -- lis,
-%   spe -- cu -- lum iu -- sti -- ti -- ae,
-%   se -- des sa -- pi -- en -- ti -- ae,
-%   cau -- sa no -- strae lae -- ti -- ti -- ae,
-%   vas spi -- ri -- tu -- a -- le,
-%   vas ho -- no -- ra -- bi -- le,
-%   vas in -- si -- gne de -- vo -- ti -- o -- nis,
-%   ro -- sa my -- sti -- ca,
-%   tur -- ris Da -- vi -- di -- ca,
-%   tur -- ris e -- bur -- ne -- a,
-%   do -- mus au -- re -- a,
-%   foe -- de -- ris ar -- ca,
-%   ia -- nu -- a coe -- li,
-%   stel -- la ma -- tu -- ti -- na,
-%   o -- ra pro no -- bis.
+VirgoSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoVirgo
+    \mvTr a'8.\fE^\tuttiE b16 c8 b16([ a)] d8. d16^\critnote c4
+    r2 a8. b16 c8 b16([ a)]
+    d4 c r2
+    c8. c16 d8 c c8.([ b16)] b4
+    b8. b16 c8 b b16([ a)] a8 a a %5
+    a8.([ g16)] g4 b b8 b
+    b8.([ a16)] a8 a b a g4
+    f r r2
+    a8. a16 d8 d cis8. h!16 a4
+    a8 a d d cis8. h16 a4 %10
+    cis cis cis8 cis16 cis cis8. cis16
+    d4 r f8. e16 d8 c!
+    h!4 h e c8 h
+    a8. a16 a4 d4. h8
+    gis gis16 gis gis8 gis a4 a %15
+    h h8 h c4 c8 c
+    d c h4 a r
+    r2 e'4. d16([ c)]
+    d4. d8 c4 r
+    r2 e4. d16 c %20
+    d4. d8 c4 r
+    r2 c4 c8 c
+    c8. h16 h4 d8 d d d
+    d8. c16 c4 e e8 e
+    e([ d)] d4 f f8 f %25
+    f([ e)] e4 e8 e f e
+    e([ d)] d4 d d8 d
+    e4 e f4. f8
+    e e16 e e8([ d)] e e d4
+    c r r2 %30
+    R1
+    R\fermata \bar "|." %32 finis
+  }
+}
+
+VirgoSopranoLyrics = \lyricmode {
+  Vir -- go pru -- den -- tis -- si -- ma,
+  vir -- go ve -- ne --
+  ran -- da,
+  vir -- go prae -- di -- can -- da,
+  vir -- go, vir -- go po -- tens, vir -- go %5
+  cle -- mens, vir -- go fi --
+  de -- lis, o -- ra pro no --
+  bis.
+  Spe -- cu -- lum iu -- sti -- ti -- ae,
+  se -- des sa -- pi -- en -- ti -- ae, %10
+  cau -- sa no -- strae lae -- ti -- ti --
+  ae, vas spi -- ri -- tu --
+  a -- le, vas ho -- no --
+  ra -- bi -- le, vas in --
+  si -- gne de -- vo -- ti -- o -- nis, %15
+  o -- ra pro no -- bis, o --
+  ra pro no -- bis.
+  Ro -- sa __
+  my -- sti -- ca,
+  tur -- ris Da -- %20
+  vi -- di -- ca,
+  tur -- ris e --
+  bur -- ne -- a, do -- mus, do -- mus
+  au -- re -- a, foe -- de -- ris
+  ar -- ca, ia -- nu -- a %25
+  coe -- li, stel -- la ma -- tu --
+  ti -- na, o -- ra pro
+  no -- bis, o -- ra,
+  o -- ra pro no -- bis, pro no --
+  bis. %30 finis
+}
+
+
+
 
 %   Sa -- lus in -- fir -- mo -- rum,
 %   re -- fu -- gi -- um pec -- ca -- to -- rum,

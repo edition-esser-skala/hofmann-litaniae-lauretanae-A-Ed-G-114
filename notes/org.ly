@@ -145,3 +145,77 @@ KyrieBassFigures = \figuremode {
   \bc <[6 _]>2.
   r %68 finis
 }
+
+VirgoOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoVirgo
+    \mvTr f8\fE-\tutti f f f b, b f' f
+    g g e c f f f f
+    b, b f' f g g e c
+    f f fis fis g g g g
+    e e e e f! f f f %5
+    c c c c c c c e
+    f f f f e f16 f, c'8 c,
+    f f a-\soloE a b b c c,
+    f-\tuttiE f' d d a a a a
+    d d d d a a a a %10
+    a' a a a g g g g
+    f f f f f f f f
+    f f f f e e e e
+    e e e e d d d d
+    d d d d c c c c %15
+    h h e e a, a a a'
+    gis a16 a, e'8 e, a a c-\soloE c
+    d d e e, a4 r
+    r2 r16 a'32-\tuttiE gis a16 h c h a g
+    f e d d e8 e, a4 r %20
+    r2 r16 a'32 gis a16 h c h a g
+    f^\critnote e d d e8 e, a4 r
+    r16 g'!32 fis g16 a h a g fis g8 g, r4
+    r16 a'32 gis a16 h c h a gis a8 a, r4
+    r16 h'32 a h16 c d c h a h8 h, r4 %25
+    r16 c'32 h c16 d e d c h c8 c, r4
+    r16 g'32 fis g16 a h a g fis g8 g, r g'
+    c16 c32 d e16 d c h a g f f32 e d16 c h a g h
+    c c' e, f g8 g, c16 c'32 h c16 c, g'8 g,
+    c c e-\soloE e f f fis fis %30
+    g g h, h c c g' g,
+    e'8. f16 g8 g, c4 r\fermata \bar "|." %32 finis
+  }
+}
+
+VirgoBassFigures = \figuremode {
+  r1
+  <_->4 <[6 5-]>2.
+  r2 <_->4 <[6 5-]>
+  r <6>8 <5> <9 4>4 <8 _->
+  <[6 5-]>2 \bo <9 [4-]>8 \bc <8 [3]>4. %5
+  <6 4>4 <5 3> <7->2
+  <9 [4-]>4 \bc <8 [3]> <[6] 5->2
+  r1
+  r4 <5> <_+>2
+  r q %10
+  r <4\+>
+  <6>1
+  <4!>2 <6>
+  <4 2> <6>
+  <4\+> <[6]> %15
+  <6\\>4 <7 _+>2.
+  <[6 5]>4 <4>8 <_+> r2
+  <_!>4 <4>8 <_+> r2
+  r1
+  r8 <7> <6 4> <[5] _+> r2 %20
+  r1
+  r8 <[7]> <6 4> <[5] _+> r2
+  \bo <[9 4]>8. \bassFigureExtendersOn <9 4>16 <6>2.
+  <9 4>8. q16 <6>2. \bassFigureExtendersOff
+  <4 2>8 \bc <[3 1]> <6>4 <6 [5]>2 %25
+  \bo <[4 _]>8 <3>2..
+  <6 4>8 <5 3>2..
+  r2. <6 5>4
+  r <6 4>8 <5 3> r2
+  r4 <6>2 q4 %30
+  r q2.
+  \bc <[6 _]>1 %32 finis
+}

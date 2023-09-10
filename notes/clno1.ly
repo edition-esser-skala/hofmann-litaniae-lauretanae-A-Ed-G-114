@@ -32,3 +32,17 @@ KyrieClarinoI = {
     c4 r r\fermata \bar "|." %68 finis
   }
 }
+
+VirgoClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoVirgo
+    R1*26 %26
+    r2 g''4\fE g8 g16 g
+    e4 r r d8. d16
+    e8 e16 e e8 d e e16 e d8. d16
+    c4 r r2 %30
+    d4 d8. d16 e8 e16 e d8. d16
+    e8 e16 e d8. d16 c4 r\fermata \bar "|." %32 finis
+  }
+}

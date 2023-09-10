@@ -135,3 +135,75 @@ KyrieBassoLyrics = \lyricmode {
   bis, pro no -- %65
   bis. %66 finis
 }
+
+VirgoBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoVirgo
+    r2 r4 r8 \mvTr a'\fE^\tutti
+    g g g4 f r
+    r r8 a g g g4
+    f r8 fis g g g4
+    e r8 e f f f4 %5
+    c r8 c c c c([ e])
+    f4 r8 f e f c4
+    f, r r2
+    r r8 a'16([ h!)] cis8 cis
+    d4 d, r8 a'16([ h)] cis8 cis %10
+    a4 a g g8 g
+    f4 f r r8 f
+    f f f4 e r8 e
+    e e e4 d r8 d
+    d d d4 c r %15
+    h e8 e a4 a8 a
+    gis a e4 a, r
+    R1
+    r2 r8 a'4 a8
+    a a16 a a8([ gis)] a4 r %20
+    r2 r8 a4 a8
+    a a16 a a8([ gis)] a4 r
+    r8 g16([ a)] h([ a)] g([ fis)] g8 g, r4
+    r8 a'16([ h)] c([ h)] a([ gis)] a8 a, r4
+    r8 h'16([ c)] d([ c)] h([ a)] h8 h, r4 %25
+    r8 c'16([ d)] e([ d)] c([ h)] c8 c, r4
+    r8 g'16([ a)] h([ a)] g([ fis)] g4 g8 g
+    c4 c f, h,
+    c8 e16 f g4 c8 c, g'4
+    c, r r2 %30
+    R1
+    R\fermata \bar "|." %32 finis
+  }
+}
+
+VirgoBassoLyrics = \lyricmode {
+  O --
+  ra pro no -- bis,
+  o -- ra pro no --
+  bis, o -- ra pro no --
+  bis, o -- ra pro no -- %5
+  bis, o -- ra pro no --
+  bis, o -- ra pro no --
+  bis.
+  O -- ra pro
+  no -- bis, o -- ra pro %10
+  no -- bis, o -- ra pro
+  no -- bis, o --
+  ra pro no -- bis, o --
+  ra pro no -- bis, o --
+  ra pro no -- bis, %15
+  o -- ra pro no -- bis, o --
+  ra pro no -- bis.
+
+  O -- ra,
+  o -- ra pro no -- bis, %20
+  o -- ra,
+  o -- ra pro no -- bis,
+  o -- ra __ pro no -- bis,
+  o -- ra __ pro no -- bis,
+  o -- ra __ pro no -- bis, %25
+  o -- ra __ pro no -- bis,
+  o -- ra __ pro no -- bis, pro
+  no -- bis, o -- ra,
+  o -- ra pro no -- bis, pro no --
+  bis. %30 finis
+}

@@ -74,3 +74,42 @@ KyrieViolinoI = {
     c,4 r r\fermata \bar "|." %68 finis
   }
 }
+
+VirgoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoVirgo
+    r16 a'32(\fE b) c16 f r a,32( b) c16 f r d32( e) f16 b r a,32( b) c16 f
+    r b,32( c) d16 g r g,32( a) b16 g' r a,32( b) c16 f r a,32( b) c16 f
+    r d32( e) f16 b r a,32( b) c16 f r b,32( c) d16 g r g,32( a) b16 g'
+    r a,32( b) c16 f r a,32( b) c16 a' r g,32( a) b16 g' r b,32( c) d16 g
+    r g,32( a) b16 g' r g,32( a) b16 g' r f,32( g) a16 f' r a,32( b ) c16 f %5
+    r c,32( d) e16 c' r e,32( f) g16 c r e32( f) g16 b r e,32( f) g16 b
+    r f,32( g) a16 f' r a,32( b) c16 f g8^\critnote f e4\trill
+    r16 a,32( b) c16 f f32( e d c b a g f) d'( c b a g f e d) g,8 e'\trill
+    f16 f32( g) a16 f' r f,32( g) a16 d r cis32( d) e16 a r cis,32( d) e16 a
+    r f32( g) a16 d r f,32( g) a16 d r cis,32( d) e16 a r a,32( h) cis16 e %10
+    r cis32( d) e16 a r a,32( h) cis16 e a32( g f e d cis h a) e'( d cis h a g f e)
+    d''( c! b a g f e d) a'( g f e d c b a) r16 f'32( g) a16 d r d,32( e) f16 a
+    r h,32( c) d16 g r h,32( c) d16 g r c,32( d) e16 g r c,32( d) e16 g
+    r a,32( h) c16 f r a,32( h) c16 f r h,32( c) d16 f r h,32( c) d16 f
+    r gis,32( a) h16 e r gis,32( a) h16 e r a,32( h) c16 a' r a,32( h) c16 a' %15
+    r h,32( c) d16 h' r h,32( c) d16 h' r c,32( d) e16 a r c,32( d) e16 a
+    h8 a4 gis8\trill r16 c,32( d) e16 a a32( g f e d c h a)
+    f'( e d c h a g f) h,8 gis' a16 a32( h) c16 h a a, a' a
+    gis gis32( a) h16 a gis fis e gis a a'8 a16 a a8 a16
+    a a8 a16 a8 gis\trillE a16 a,32( h) c16 h a a, a' a %20
+    gis gis32( a) h16 a gis fis e gis a a'8 a16 a a8 a16
+    a a8 a16 a8 gis\trill a16 a,32( h) c16 h a g fis d
+    g! g'8 g16 g g8 g16 g g,32( a) h16 a gis fis e gis
+    a a'8 a16 a a8 a16 a a,32( h) c16 h a g f a
+    h h'8 h16 h h8 h16 h h,32( c) d16 c h a g h %25
+    c c'8 c16 c c8 c16 c c,32( d) e16 c h g c c,
+    g' g'8 g16 g g8 g16 g h,32( c) d16 c h a g h
+    c c'8 c16 c c8 c16 c c8 c16 d d8 d16
+    c c8 c16 c8 h\trill c16 c8 c16 h4\trill-\critnote
+    c16 e,32( f) g16 c c32( h a g f e d c) a'16 f32( g) a16 d d32( c h a g fis e d) %30
+    h'16 h,32( c) d16 g g32( f e d c h a g) e'( d c h a g f e) g,8 h'
+    c32( h a g f e d c) g8 h' c,4 r\fermata \bar "|." %32 finis
+  }
+}

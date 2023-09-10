@@ -135,3 +135,75 @@ KyrieTenoreLyrics = \lyricmode {
   bis, pro no -- %65
   bis. %66 finis
 }
+
+VirgoTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoVirgo
+    r2 r4 r8 \mvTr c\fE^\tutti
+    b b b4 a r
+    r r8 c b b b4
+    a r8 d d d d4
+    c r8 c c c c4 %5
+    c r8 c c c c4
+    c r8 c c c c4
+    a r r2
+    r r8 cis16([ d)] e8 e
+    f4 f, r8 cis'16([ d)] e8 e %10
+    cis4 cis a a8 a
+    a4 a r r8 f^\critnote
+    g g g4 g r8 g
+    f f f4 f r8 d'
+    h! h h4 c r %15
+    d h8 e e4 e8 e
+    e e e4 e r
+    R1
+    r2 r8 c4 c8
+    d d16 c c8([ h)] a4 r %20
+    r2 r8 c4 c8
+    d d16 c c8([ h)] a4 r
+    r8 h16([ c)] d([ c)] h([ a)] h8 h r4
+    r8 c16([ d)] e([ d)] c([ h)] c8 c r4
+    r8 d16([ e)] f([ e)] d([ c)] d8 d r4 %25
+    r8 e16([ f)] g([ f)] e([ d)] e8 e r4
+    r8 h16([ c)] d([ c)] h([ a)] h4 h8 h
+    g4 g f d'
+    c8 c16 c c8([ h)] c c h4
+    c r r2 %30
+    R1
+    R\fermata \bar "|." %32 finis
+  }
+}
+
+VirgoTenoreLyrics = \lyricmode {
+  O --
+  ra pro no -- bis,
+  o -- ra pro no --
+  bis, o -- ra pro no --
+  bis, o -- ra pro no -- %5
+  bis, o -- ra pro no --
+  bis, o -- ra pro no --
+  bis.
+  O -- ra pro
+  no -- bis, o -- ra pro %10
+  no -- bis, o -- ra pro
+  no -- bis, o --
+  ra pro no -- bis, o --
+  ra pro no -- bis, o --
+  ra pro no -- bis, %15
+  o -- ra pro no -- bis, o --
+  ra pro no -- bis.
+
+  O -- ra,
+  o -- ra pro no -- bis, %20
+  o -- ra,
+  o -- ra pro no -- bis,
+  o -- ra __ pro no -- bis,
+  o -- ra __ pro no -- bis,
+  o -- ra __ pro no -- bis, %25
+  o -- ra __ pro no -- bis,
+  o -- ra __ pro no -- bis, pro
+  no -- bis, o -- ra,
+  o -- ra pro no -- bis, pro no --
+  bis. %30 finis
+}

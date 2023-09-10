@@ -70,3 +70,42 @@ KyrieOboeII = {
     e r r\fermata \bar "|." %68 finis
   }
 }
+
+VirgoOboeII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoVirgo
+    f8.\fE g16 a8 g16 f b4 a
+    r2 f8. g16 a8 g16 f
+    b4 a r2
+    a2 a8. g16 g4
+    g2 g16 f f8 f f' %5
+    f8. e16 e4 g2
+    g8. f16 f4 g8 f e4
+    f r r2
+    f,2 e'8. d16 cis4
+    f2 e8. d16 cis4 %10
+    e,2 e
+    f4 r a8. g16 f8 e
+    d2-\critnote g4 g8 e
+    c2 f
+    e e %15
+    gis a
+    h8 a a gis a4 r
+    r2 c4. h16 a
+    h4. h8 a4 r
+    r2 c4. h16 a %20
+    h2^\critnote a4 r
+    r2 a
+    a8. g!16 g4 h2
+    h8. a16 a4 c2
+    c8 h h4 d2 %25
+    g, g8 g g c
+    c h h4 h2
+    g a4 g
+    g2 g
+    e4 r r2 %30
+    g'4 d^\critnote c h
+    c g e r\fermata \bar "|." %32 finis
+  }
+}
