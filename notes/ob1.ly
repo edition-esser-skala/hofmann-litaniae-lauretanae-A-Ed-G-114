@@ -157,3 +157,72 @@ SalusOboeI = {
     a r r\fermata \bar "|." %38 finis
   }
 }
+
+ReginaOboeI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoRegina
+    e'4\fE g
+    c, e
+    a, c
+    a8 c c d
+    e4 d8 g %5
+    e4 d
+    c h8 e
+    c4 h
+    a g8 c
+    a4 g %10
+    a16 h c8 c h
+    c4 r8 d
+    e4 f8 e
+    d8. c16 d4
+    e e8 d %15
+    c8. h16 c4
+    d d8 c
+    h4 r8 h
+    c4 r8 c
+    h4 a %20
+    g r
+    R2
+    r4 r8 d'
+    d4 e8 d
+    c8. h16 c4 %25
+    f f8 e
+    d2
+    g4 g8 f
+    e2
+    f4 r8 f %30
+    e f e4
+    d r8 d
+    e4 d
+    c r8 h
+    c4 h %35
+    a r8 c
+    f2
+    e4 d
+    e f
+    e e8( d) %40
+    e4 d
+    c r \noBreak
+    R2 \bar "||"
+    \time 4/4 \tempoAgnus \newSpacingSection
+      r4 c2 c4 \noBreak
+    des2 des %45
+    c4 c c2
+    c4 b2 a4
+    b r r2
+    r b\fE
+    ces^\critnote ces %50
+    b b
+    b4 as2 g4
+    as r r2
+    r as\fE
+    a1 %55
+    a2 b
+    h4 c2 h4
+    f'2 es4 d~
+    d c2 h4
+    c b as' g %60
+    f2 e!\fermata \bar "|." %61 finis
+  }
+}

@@ -285,3 +285,127 @@ SalusTenoreLyrics = \lyricmode {
   pro no --
   bis. %33 finis
 }
+
+ReginaTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \twofourtime \key c \major \time 2/4 \autoBeamOff \tempoRegina
+    R2*4
+    r4 r8 \mvTr h\fE^\tutti %5
+    c c d([ h)]
+    c4 r8 h
+    a a h([ g)]
+    a4 r8 g
+    f f g4 %10
+    f8 g a([ g)]
+    g4 r8 h
+    c4 r8 c
+    h h h4
+    h r8 h %15
+    a a a4
+    a8 a a4
+    g! r8 g
+    a4 r8 a
+    g g g([^\critnote fis)] %20
+    g4 r
+    R2*2
+    r4 r8 h
+    c c c4 %25
+    c r8 c
+    d d d4
+    d r8 d
+    c c c4
+    d r8 d %30
+    c d c4
+    h r8 h
+    c c d([ h)]
+    c4 r8 h
+    a a h([ g)] %35
+    a4 r8 e'
+    c c d4
+    c8 c c([^\critnote h)]
+    c4 d
+    c8 c c([ h)] %40
+    c c c([^\critnote h)]
+    c4 r \noBreak
+    R2 \bar "||"
+    \time 4/4 \tempoAgnus \newSpacingSection
+      r4 g2 g4 \noBreak
+    g g8 g g g16 g g8 g %45
+    f4 f ges4. ges8
+    f4 f f4. f8
+    f4 r r2
+    r f4. f8
+    f4 f8 f f f16 f f8 f %50
+    ges4 ges es2
+    es4 es8 es es4. es8
+    es4 r r2
+    r ces'4. ces8
+    c4 c8 c c c16 c c8 c %55
+    c4 c des4. des8
+    d4 g, g g
+    h!4. h8 c4 g
+    g1
+    g4 g8 g f4 e! %60
+    as2 g\fermata \bar "|." %61 finis
+  }
+}
+
+ReginaTenoreLyrics = \lyricmode {
+  O -- %5
+  ra pro no --
+  bis, o --
+  ra pro no --
+  bis, o --
+  ra pro no -- %10
+  bis, pro no --
+  bis, o --
+  ra, o --
+  ra pro no --
+  bis, o -- %15
+  ra pro no --
+  bis, pro no --
+  bis, o --
+  ra, o --
+  ra pro no -- %20
+  bis.
+
+  O -- %24
+  ra pro no -- %25
+  bis, o --
+  ra pro no --
+  bis, o --
+  ra pro no --
+  bis, o -- %30
+  ra pro no --
+  bis, o --
+  ra pro no --
+  bis, o --
+  ra pro no -- %35
+  bis, o --
+  ra pro no --
+  bis, pro no --
+  bis, o --
+  ra pro no -- %40
+  bis, pro no --
+  bis.
+
+  A -- gnus
+  De -- i, qui tol -- lis pec -- ca -- ta %45
+  mun -- di: Par -- ce
+  no -- bis, Do -- mi --
+  ne.
+  A -- gnus
+  De -- i, qui tol -- lis pec -- ca -- ta %50
+  mun -- di: Ex --
+  au -- di nos, Do -- mi --
+  ne.
+  A -- gnus
+  De -- i, qui tol -- lis pec -- ca -- ta %55
+  mun -- di: Mi -- se --
+  re -- re no -- bis,
+  mi -- se -- re -- re
+  no --
+  bis, mi -- se -- re -- re %60
+  no -- bis. %61 finis
+}

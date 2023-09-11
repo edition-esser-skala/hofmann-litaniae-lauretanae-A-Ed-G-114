@@ -305,3 +305,136 @@ SalusBassFigures = \figuremode {
   r4 <6 4> \bc <[5 _+]>
   r2. %38 finis
 }
+
+ReginaOrgano = {
+  \relative c {
+    \clef bass
+    \twofourtime \key c \major \time 2/4 \tempoRegina
+    \sbOn \tuplet 3/2 8 { \mvTr c'16\fE-\soloE h c } c, c' h8 g
+    \tuplet 3/2 8 { a16 g a } a, a' g8 e
+    \tuplet 3/2 8 { f16 e f } f, f' e8 c
+    f e16 f g8 g,-\tuttiE
+    \tuplet 3/2 8 { c'16 h c } c, c' h8 g %5
+    \tuplet 3/2 8 { c16 h c } c, c' h8 g
+    \tuplet 3/2 8 { a16 g a } a, a' g8 e
+    \tuplet 3/2 8 { a16 g a } a, a' g8 e
+    \tuplet 3/2 8 { f16 e f } f, f' e8 c
+    \tuplet 3/2 8 { f16 e f } f, f' e8 c \sbOff %10
+    f e d g
+    \sbOn \tuplet 3/2 8 { c16 h c } c, c' h8 g
+    \tuplet 3/2 8 { c16 h c } c, c' a8 a
+    \tuplet 3/2 8 { h16 a h } h, h' \tuplet 3/2 8 { h a h } h, h'
+    \tuplet 3/2 8 { gis fis gis } gis, gis' gis8 gis %15
+    \tuplet 3/2 8 { a16 gis a } a, a' \tuplet 3/2 8 { a gis a } a, a'
+    \tuplet 3/2 8 { fis e fis } fis, fis' fis8 fis
+    \tuplet 3/2 8 { g!16 fis g } g, g' \tuplet 3/2 8 { g fis g } g, g'
+    \tuplet 3/2 8 { fis e fis } fis, fis' fis8 fis
+    g h,16 c d8 d, %20
+    \tuplet 3/2 8 { g'16 fis g } g, g' fis8-\soloE d^\critnote
+    \tuplet 3/2 8 { e16 d e } e, e' d8 h
+    c h16 c d8 d,-\tuttiE
+    \tuplet 3/2 8 { g'16 fis g } g, g' gis8 gis
+    \tuplet 3/2 8 { a16 gis a } a, a' a8 a %25
+    \tuplet 3/2 8 { a16 gis a } a, a' a8 a
+    \tuplet 3/2 8 { h16 a h } h, h' h8 h
+    \tuplet 3/2 8 { h16 a h } h, h' h8 h
+    \tuplet 3/2 8 { c16 h c } c, c' c8 c
+    \tuplet 3/2 8 { h16 a h } h, h' h8 h %30
+    \tuplet 3/2 8 { c16 h c } h g c8 c,
+    \tuplet 3/2 8 { g'16 f g } g, g' g8 g
+    \tuplet 3/2 8 { c16 h c } c, c' h8 g
+    \tuplet 3/2 8 { a16 g a } a, a' g8 e
+    \tuplet 3/2 8 { a16 g a } a, a' g8 e %35
+    \tuplet 3/2 8 { f16 e f } f, f' e8 c
+    \tuplet 3/2 8 { a'16 g a } a, a' \tuplet 3/2 8 { h a h } h, h'
+    c8 e,16 f g8 g,
+    \tuplet 3/2 8 { c'16 h c } c, c' \tuplet 3/2 8 { h a h } h, h' \sbOff
+    c8 e,16 f g8 g, %40
+    c c' g g,
+    \sbOn \tuplet 3/2 8 { c'16 h c } c, c' \sbOff h8-\soloE g \noBreak
+    c e,16 f g8 g, \bar "||"
+    \time 4/4 \tempoAgnus \newSpacingSection
+      c4 c2-\tuttiE c4 \noBreak
+    b2 b8 b b b %45
+    as as as as a a a a
+    b b b b f f f f
+    b b \mvTr ges\p-\senzaOrg-\soloE ges f f f f
+    f f f f \mvTr b2\f-\colOrg-\tuttiE
+    as as8 as as as %50
+    ges ges ges ges g g g g
+    as as as as es' es es es
+    as, as \mvTr fes'\p-\senzaOrg-\soloE fes es es es es
+    es es es es \mvTr as,2\f-\colOrg-\tuttiE
+    ges ges8 ges ges ges %55
+    f! f f f b b b b
+    g! g g g g g g g
+    g-\tasto g g g g g g g
+    g g g g g g g g
+    c c c c c c c c %60
+    c c c c c2\fermata \bar "|." %61 finis
+  }
+}
+
+ReginaBassFigures = \figuremode {
+  r4 \bo <[6]>
+  r <6>
+  r q
+  r8 \bc <[6]> <6 4> <5 3>
+  r4 \bo <[6]> %5
+  r <6>
+  r q
+  r q
+  r q
+  r q %10
+  r8 \bc <[6]> <7> \bo <[7]>
+  r4 \bc <[6]>
+  r <6>8 <5>
+  r2
+  \bo <[6 _]>4. <5>8 %15
+  r2
+  <6>4. <5>8
+  r2
+  \bc <[6 5]>
+  r4 <4>8 <_+> %20
+  r4 \bo <[6]>8 \bc <[_+]>
+  r4 <6 _+>
+  r8 <[6]> <4> <_+>
+  r4 \bo <[6 _]>8 <5>
+  r2 %25
+  <6>4. <5>8
+  r2
+  <6>4. <5>8
+  r2
+  <6 5> %30
+  r8 q4.
+  r2
+  r4 <6>
+  r q
+  r q %35
+  r q
+  q <6 5>
+  r <4>8 <3>
+  r4 <6 5>
+  r <6 4>8 <5 3> %40
+  r4 <4>8 <3>
+  r4 <6>
+  r <6 4>8 \bc <[5 3]>
+  r1
+  <6 4 _-> %45
+  <6>2 <7- [5-]>
+  <9 4->4 <8 _-> <6- 4> <5 _!>
+  <[_-]>1
+  r2 <_->
+  <6 4! _->1 %50
+  <6- _->2 <6- 5- [_-]>
+  \bo <9 [_-]>4 \bc <8 [\t]> \bo <[5-] 4-> \bc <[\t] 3>
+  <_->1
+  r2 q
+  <6- 4! 2!>1 %55
+  <7- _!>2 <_->
+  <7 [5!] _!>4 <6- 4>2 <5 _!>4
+  r1
+  r
+  <[8] _->4 <7- _!> <6- 4> <5 3> %60
+  <6- 4>2 <5 3> %61 finis
+}

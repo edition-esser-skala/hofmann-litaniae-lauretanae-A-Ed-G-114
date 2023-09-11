@@ -46,3 +46,47 @@ VirgoTimpani = {
     c8 c16 c g8. g16 c4 r\fermata \bar "|." %32 finis
   }
 }
+
+ReginaTimpani = {
+  \relative c {
+    \clef bass
+    \twofourtime \key c \major \time 2/4 \tempoRegina
+    c4\fE r8 g16 g
+    c4 r
+    R2
+    r8 c16 c g8. g16
+    c4 r8 g16 g %5
+    c4 r8 g16 g
+    c4 r
+    R2*4 %11
+    c4 r8 g16 g
+    c4 r
+    R2*4 %17
+    g4 r
+    R2
+    g4 r %20
+    g r
+    R2*2
+    g4 r
+    R2*3 %27
+    g4 r8 g16 g
+    c4 r
+    r r8 g %30
+    c g16 g c8. c16
+    g4 r8 g
+    c4 r
+    R2*3 %36
+    r4 r8 g
+    c c16 c g8. g16
+    c4 r8 g
+    c c16 c g8. g16 %40
+    c8 c16 c g8. g16
+    c4 r8 g \noBreak
+    c c16 c g8. g16 \bar "||"
+    \time 4/4 \tempoAgnus \newSpacingSection
+      c4 r r2 \noBreak
+    R1*15 %59
+    r4 c8.\fE c16 c4 c %60
+    c4. c8 c2\fermata \bar "|." %61 finis
+  }
+}

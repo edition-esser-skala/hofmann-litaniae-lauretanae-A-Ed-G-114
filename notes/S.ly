@@ -294,16 +294,130 @@ SalusSopranoLyrics = \lyricmode {
   bis. %33 finis
 }
 
-%   Re -- gi -- na An -- ge -- lo -- rum,
-%   re -- gi -- na Pa -- tri -- ar -- cha -- rum,
-%   re -- gi -- na Pro -- phe -- ta -- rum,
-%   re -- gi -- na A -- po -- sto -- lo -- rum,
-%   re -- gi -- na Mar -- ty -- rum,
-%   re -- gi -- na Con -- fes -- so -- rum,
-%   re -- gi -- na Vir -- gi -- num,
-%   re -- gi -- na San -- cto -- rum o -- mni -- um,
-%   o -- ra pro no -- bis.
+ReginaSoprano = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \autoBeamOff \tempoRegina
+    R2*3
+    r4 r8 \mvTr d'\fE^\tutti
+    e e d g %5
+    e4 d8 d
+    c c16 c h8 e
+    c4 h8 h
+    a a g c
+    a4 g8 g %10
+    a16([ h)] c8 c([ h)]
+    c4 r8 d
+    e e16 e f8 e
+    d8.([ c16)] d8 d
+    e e16 e e8 d %15
+    c8. h16 c8 c
+    d d d([ c)]
+    h4 r8 h
+    c4 r8 c
+    h h a4 %20
+    g r
+    R2
+    r4 r8 d'
+    d d e d
+    c8.([ h16)] c8 c %25
+    f f16 f f8 e
+    d8. d16 d8 d
+    g g16 g g8 f
+    e8. e16 e8 e
+    f4 r8 f %30
+    e f e4
+    d r8 d
+    e e d4
+    c r8 h
+    c c h4 %35
+    a r8 c
+    f4 f8 f
+    e e d4
+    e( f)
+    e8 e e([ d)] %40
+    e e d4
+    c r \noBreak
+    R2 \bar "||"
+    \time 4/4 \tempoAgnus \newSpacingSection
+      r4 c2 c4 \noBreak
+    des des8 des des des16 des des8 des %45
+    c4 c c4. c8
+    c4 b b( a8.) a16
+    b4 r r2
+    r b4. b8
+    ces4^\critnote ces8 ces ces ces16 ces ces8 ces %50
+    b4 b b2
+    b4 as8 as as4( g8.) g16
+    as4 r r2
+    r as4. as8
+    a4 a8 a a a16 a a8 a %55
+    a4 a b4. b8
+    h4 c c h
+    f'4. f8 es4 d
+    d c2 h4
+    c b8 b as4 g %60
+    f2 e!\fermata \bar "|." %61 finis
+  }
+}
 
-%   A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di: Par -- ce no -- bis, Do -- mi -- ne.
-%   A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di: Ex -- au -- di nos, Do -- mi -- ne.
-%   A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di: Mi -- se -- re -- re no -- bis.
+ReginaSopranoLyrics = \lyricmode {
+  Re -- %4
+  gi -- na An -- ge -- %5
+  lo -- rum, re --
+  gi -- na Pa -- tri -- ar --
+  cha -- rum, re --
+  gi -- na Pro -- phe --
+  ta -- rum, o -- %10
+  ra __ pro no --
+  bis, re --
+  gi -- na A -- po -- sto --
+  lo -- rum, re --
+  gi -- na, re -- gi -- na %15
+  Mar -- ty -- rum, o --
+  ra pro no --
+  bis, o --
+  ra, o --
+  ra pro no -- %20
+  bis.
+
+  Re --
+  gi -- na Con -- fes --
+  so -- rum, re -- %25
+  gi -- na, re -- gi -- na
+  Vir -- gi -- num, re --
+  gi -- na San -- cto -- rum
+  o -- mni -- um, o --
+  ra, o -- %30
+  ra pro no --
+  bis, o --
+  ra pro no --
+  bis, o --
+  ra pro no -- %35
+  bis. Pa --
+  tro -- na Hun --
+  ga -- ri -- ae,
+  o --
+  ra pro no -- %40
+  bis, pro no --
+  bis.
+
+  A -- gnus
+  De -- i, qui tol -- lis pec -- ca -- ta %45
+  mun -- di: Par -- ce
+  no -- bis, Do -- mi --
+  ne.
+  A -- gnus
+  De -- i, qui tol -- lis pec -- ca -- ta %50
+  mun -- di: Ex --
+  au -- di nos, Do -- mi --
+  ne.
+  A -- gnus
+  De -- i, qui tol -- lis pec -- ca -- ta %55
+  mun -- di: Mi -- se --
+  re -- re no -- bis,
+  mi -- se -- re -- re
+  no -- _ _
+  bis, mi -- se -- re -- re %60
+  no -- bis. %61 finis
+}

@@ -158,3 +158,72 @@ SalusViolinoII = {
     a r r\fermata \bar "|." %38 finis
   }
 }
+
+ReginaViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoRegina
+    \sbOn \tuplet 3/2 8 { e'16\fE d e } e, e' g32([ f e d)] g( d c h)
+    \tuplet 3/2 8 { c16 h c } c, c' e32([ d c h)] e( h a g)
+    \tuplet 3/2 8 { a16 g a } a, a' c32([ h a g)] c( g f e) \sbOff
+    a([ g a h)] c( g f e) e16 c' d, h'
+    \sbOn \tuplet 3/2 8 { e d e } e, e' g32([ f e d)] g( d c h) %5
+    \tuplet 3/2 8 { e16 d e } e, e' g32([ f e d)] g( d c h)
+    \tuplet 3/2 8 { c16 h c } c, c' e32([ d c h)] e( h a g)
+    \tuplet 3/2 8 { c16 h c } c, c' e32([ d c h)] e( h a g)
+    \tuplet 3/2 8 { a16 g a } a, a' c32([ h a g)] c( g f e)
+    \tuplet 3/2 8 { a16 g a } a, a' c32([ h a g)] c( g f e) %10
+    a([ g a h)] c( g f e) f([ c' h a)] h( f e d)
+    \tuplet 3/2 8 { e'16 d e } e, e' g32([ f e d)] g( d c h)
+    \tuplet 3/2 8 { e16 d e } e, e' f32([ e d c)] f( e d c)
+    \tuplet 3/2 8 { d16 c d } d, d' \tuplet 3/2 8 { d c d } d, d'
+    \tuplet 3/2 8 { e d e } e, e' e32([ d c h)] e( d c h) %15
+    \tuplet 3/2 8 { c16 h c } c, c' \tuplet 3/2 8 { c h c } c, c'
+    \tuplet 3/2 8 { d c d } d, d' d32([ c h a)] d( c h a)
+    \tuplet 3/2 8 { h16 a h } h, h' \tuplet 3/2 8 { h a h } h, h'
+    \tuplet 3/2 8 { a g a } a, a' d32([ c h a)] d( c h a) \sbOff
+    h( g' fis e d c h c) a16 g' a, fis' %20
+    \sbOn \tuplet 3/2 8 { h a h } h, h' d32([ c h a)] d( a g fis)
+    \tuplet 3/2 8 { g16 fis g } g, g' h32([ a g fis)] h( fis e d) \sbOff
+    e([ d e fis)] g( d c h) a16^\critnote g' a, fis'
+    \sbOn \tuplet 3/2 8 { h a h } h, h' h32([ gis fis e)] h'( d, c h)
+    \tuplet 3/2 8 { c16 h c } c, c' c32([ e, d c)] c'( e, d c) %25
+    \tuplet 3/2 8 { f'16 e f } f, f' f32([ e d c)] f( e d c)
+    \tuplet 3/2 8 { d16 c d } d, d' d32([ h a g)] d'( h a g)
+    \tuplet 3/2 8 { g'16 f g } g, g' g32([ f e d)] g( f e d)
+    \tuplet 3/2 8 { e16 d e } e, e' e32([ g, f e)] e'( g, f e)
+    \tuplet 3/2 8 { d'16 c d } d, d' d32([ h a g)] g'( f e d) %30
+    \tuplet 3/2 8 { e16 d e } f f d32([ c h c)] g'( e d c)
+    \tuplet 3/2 8 { h16 a h } h, h' d32([ h a g)] d'( h a g)
+    \tuplet 3/2 8 { e'16 d e } e, e' g32([ f e d)] g( d c h)
+    \tuplet 3/2 8 { c16 h c } c, c' e32([ d c h)] e( h a g)
+    \tuplet 3/2 8 { c16 h c } c, c' e32([ d c h)] e( h a g) %35
+    \tuplet 3/2 8 { a16 g a } a, a' c32([ h a g)] c( g f e)
+    \tuplet 3/2 8 { f'16 e f } f, f' \tuplet 3/2 8 { d c d } d, d' \sbOff
+    e32( c' h a g f e d) d16 c' d, h'
+    \sbOn \tuplet 3/2 8 { e, d e } e, e' \tuplet 3/2 8 { d c d } d, d' \sbOff
+    e32([ c' h a g f e d)] e16 c' d, h' %40
+    e,32( c g' e c' g f e) d16 c' d, h'
+    \sbOn \tuplet 3/2 8 { e, d e } e, e' g32([ f e d)] g( d c h) \sbOff \noBreak
+    e( c h a g f e d) e16-\critnote c' d, h' \bar "||"
+    \time 4/4 \tempoAgnus \newSpacingSection
+      c,4 e2 e4 \noBreak
+    e e8 e e e16 e e8 e %45
+    f4 f r16 es es es r es es es
+    r es es es r des des des r des des des r c c c
+    r des des des r b\p b b r a a a r b b b
+    r b b b a a a a b4.\f des8
+    d4 d8 d d d16 d d8 d %50
+    es4 es r16 des des des r des des des
+    r ces ces ces r ces ces ces r b b b r b b b
+    r ces ces ces r as\pE as as r g g g r as as as
+    r as as as g g g g as4.\f es'8
+    es4 es8 es es es16 es es8 es %55
+    es4 es r16 des des des r des des des
+    r d d d r es es es r es es es r d d d
+    r h'! h h r h h h r c c c r f, f f
+    r es es es r es es es r d d d r d d d
+    r es es es r e e e r f f f r c c c %60
+    r as as as as as as as g2\fermata \bar "|." %61 finis
+  }
+}

@@ -46,3 +46,53 @@ VirgoClarinoII = {
     c8 c16 c g8. g16 e4 r\fermata \bar "|." %32 finis
   }
 }
+
+ReginaClarinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoRegina
+    c'4\fE r8 g16 g
+    e4 r8 c16 c
+    c4 r8 c16 c
+    c8 c'16 c c8 g
+    c4 r8 g16 g %5
+    c4 r8 g16 g
+    c4 r
+    c, r
+    c r
+    c r %10
+    R2
+    c'4 r8 g16 g
+    c4 r
+    R2*4 %17
+    d4 r
+    R2
+    d4 r %20
+    g, r
+    g r
+    r8 d'16 d d8. d16
+    d4 r
+    R2*3 %27
+    d4 r8 d16 d
+    e4 r
+    r r8 d %30
+    e d16 d e8. e16
+    d4 r8 d
+    e4 r8 d16 d
+    c4 r
+    c, r
+    c r
+    c r8 g'
+    c c16 c g8. g16
+    c4 r8 d
+    e16 d c c g8. g16
+    c8 c16 c g8. g16
+    c4 r8 g \noBreak
+    c c16 c g8. g16 \bar "||"
+    \time 4/4 \tempoAgnus \newSpacingSection
+      e4 r r2 \noBreak
+    R1*15
+    r4 c8.\fE c16 c4 c
+    c4. c8 c2\fermata \bar "|."
+  }
+}

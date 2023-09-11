@@ -285,3 +285,127 @@ SalusAltoLyrics = \lyricmode {
   pro no --
   bis. %33 finis
 }
+
+ReginaAlto = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \autoBeamOff \tempoRegina
+    R2*4
+    r4 r8 \mvTr g'\fE^\tutti %5
+    g g g4
+    e r8 e
+    e e e4
+    c r8 e
+    c c c4 %10
+    c8 c f4
+    e r8 g
+    g4 r8 f
+    f f f4
+    e r8 e %15
+    e e e4
+    d8 d d4
+    d r8 d
+    d4 r8 d
+    d d d4 %20
+    d r
+    R2*2
+    r4 r8 e
+    e e e4 %25
+    c r8 f
+    f f f4
+    d r8 g
+    g g g4
+    g r8 g %30
+    g g g4
+    g r8 g
+    g g g4
+    e r8 e
+    e e e4 %35
+    c r8 g'
+    f f g4
+    g8 g g4
+    g g
+    g8 g g4 %40
+    g8 g g4
+    e r \noBreak
+    R2 \bar "||"
+    \time 4/4 \tempoAgnus \newSpacingSection
+      r4 e2 e4 \noBreak
+    e e8 e e e16 e e8 e %45
+    f4 f es4. es8
+    es4 des des( c8.) c16
+    b4 r r2
+    r des4. des8
+    d4 d8 d d d16 d d8 d %50
+    es4 es des2
+    ces4 ces8 ces b4. b8
+    ces4 r r2
+    r es4. es8
+    es4 es8 es es es16 es es8 es %55
+    es4 es des4. f8
+    f4 es es d
+    d4. g8 g4 f
+    es2 d
+    c4 e!8 e f4 c %60
+    c2 c\fermata \bar "|." %61 finis
+  }
+}
+
+ReginaAltoLyrics = \lyricmode {
+  O -- %5
+  ra pro no --
+  bis, o --
+  ra pro no --
+  bis, o --
+  ra pro no -- %10
+  bis, pro no --
+  bis, o --
+  ra, o --
+  ra pro no --
+  bis, o -- %15
+  ra pro no --
+  bis, pro no --
+  bis, o --
+  ra, o --
+  ra pro no -- %20
+  bis.
+
+  O -- %24
+  ra pro no -- %25
+  bis, o --
+  ra pro no --
+  bis, o --
+  ra pro no --
+  bis, o -- %30
+  ra pro no --
+  bis, o --
+  ra pro no --
+  bis, o --
+  ra pro no -- %35
+  bis, o --
+  ra pro no --
+  bis, pro no --
+  bis, o --
+  ra pro no -- %40
+  bis, pro no --
+  bis.
+
+  A -- gnus
+  De -- i, qui tol -- lis pec -- ca -- ta %45
+  mun -- di: Par -- ce
+  no -- bis, Do -- mi --
+  ne.
+  A -- gnus
+  De -- i, qui tol -- lis pec -- ca -- ta %50
+  mun -- di: Ex --
+  au -- di nos, Do -- mi --
+  ne.
+  A -- gnus
+  De -- i, qui tol -- lis pec -- ca -- ta %55
+  mun -- di: Mi -- se --
+  re -- re no -- bis,
+  mi -- se -- re -- re
+  no -- _
+  bis, mi -- se -- re -- re %60
+  no -- bis. %61 finis
+}
