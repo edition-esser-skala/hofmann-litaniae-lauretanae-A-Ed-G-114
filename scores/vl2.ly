@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,8 +12,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \KyrieOrgano
+          \set Staff.instrumentName = "Violino II"
+          \KyrieViolinoII
         }
       >>
       \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
@@ -22,29 +22,30 @@
   \bookpart {
     \section "2" "Virgo prudentissima"
     \addTocEntry
+    \paper { systems-per-page = #8 }
     \score {
       <<
-        \new Staff { \VirgoOrgano }
+        \new Staff { \VirgoViolinoII }
       >>
+      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
     }
   }
   \bookpart {
     \section "3" "Salus infirmorum"
     \addTocEntry
-    \paper { systems-per-page = #6 }
+    \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \SalusOrgano }
+        \new Staff { \SalusViolinoII }
       >>
     }
   }
   \bookpart {
     \section "4" "Regina Angelorum · Agnus Dei"
     \addTocEntry
-    \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \ReginaOrgano }
+        \new Staff { \ReginaViolinoII }
       >>
       \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
     }
